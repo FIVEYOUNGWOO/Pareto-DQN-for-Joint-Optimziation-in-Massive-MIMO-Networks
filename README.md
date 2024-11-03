@@ -26,7 +26,7 @@
 
 <table>
   <tr>
-    <td><img src="/README_images/spectral_efficiency.jpg" width="300" height="220"/></td>
+    <td><img src="/README_images/spectral_efficiency.ppg" width="300" height="220"/></td>
     <td><img src="/README_images/energy_efficiency.png" width="300" height="220"/></td>
     <td><img src="/README_images/train_results.png" width="300" height="220"/></td>
   </tr>
