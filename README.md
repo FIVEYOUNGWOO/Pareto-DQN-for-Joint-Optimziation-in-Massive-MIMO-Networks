@@ -26,8 +26,8 @@
 
 <table>
   <tr>
-    <td><img src="/README_images/spectral_efficiency.png" width="300" height="300"/></td>
-    <td><img src="/README_images/energy_efficiency.png" width="300" height="300"/></td>
-    <td><img src="/README_images/train_results.png" width="300" height="300"/></td>
+    <td><img src="/README_images/spectral_efficiency.png" width="320" height="300"/></td>
+    <td><img src="/README_images/energy_efficiency.png" width="320" height="300"/></td>
+    <td><img src="/README_images/train_results.png" width="320" height="300"/></td>
   </tr>
 </table>
