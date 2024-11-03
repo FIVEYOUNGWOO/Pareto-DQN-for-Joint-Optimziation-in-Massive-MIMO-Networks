@@ -2,14 +2,14 @@
 * We achieve joint optimization of spectral efficiency (SE) and energy efficiency (EE) in Massive MIMO networks by approximating the Pareto Front in a 2D space with multiple objectives, using a replay buffer and DQN model.
 
 # Introduction
-* Reinforcement learning (RL) is a powerful tool for optimization and decision-making, aiming to maximize rewards as an alternative to human decision-making. However, RL has limitations in real-world problems where multiple objectives or dynamic environments with shifting priorities exist. In these contexts, adaptive decision-making performance may degrade. To address this, we designed a multi-objective RL algorithm focused on jointly optimizing SE and EE, which are critical objectives in 5G networks.
+* Reinforcement learning (RL) is a powerful tool for optimization and decision-making, aiming to maximize rewards as an alternative to human decision-making. However, RL has limitations in real-world problems where multiple objectives or dynamic environments with shifting priorities exist. In these contexts, adaptive decision-making performance may degrade. To address this, we designed a **multi-objective RL algorithm** focused on jointly optimizing SE and EE, which are critical objectives in 5G networks.
 
 # Massive MIMO Network Environments
 * The code for the virtual environment is available for use and modification in my repository [Massive-MIMO-PY](https://github.com/FIVEYOUNGWOO/Open-AI-GYM-Based-Massive-MIMO-Network-Environments).
 * Our environment is based on [Emil Bjornson, Jakob Hoydis, and Luca Sanguinetti (2017), 'Massive MIMO Networks: Spectral, Energy, and Hardware Efficiency', Foundations and Trends in Signal Processing: Vol. 11, No. 3-4, pp. 154-655. DOI: 10.1561/2000000093.](https://www.massivemimobook.com/).
 
 # Pareto Front Apprixmation Deep Q-Network (PQN)
-* **Pareto Front Approximation** : The PQN approximates a Pareto front for multiple conflicting objectives, using reinforcement learning to balance SE and EE.
+* **Pareto Front Approximation** : PQN approximates a Pareto front for multiple conflicting objectives, using reinforcement learning to balance SE and EE.
 
 * **Replay Buffer for Multi-Objective Optimization** : PQN leverages a replay buffer to store and sample experiences, maintaining diverse solutions across SE and EE objectives. These experiences are replayed to enhance the network’s ability to optimize both objectives.
 
