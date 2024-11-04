@@ -27,7 +27,7 @@
 
 * **Energy Efficiency** : This plot represents the EE reward across episodes. Similar to SE, there is a clear upward trend, signifying that PQN is capable of consistently improving EE through training.
 
-* **Trade-Off Performance** : This scatter plot visualizes the trade-off between SE and EE achieved by PQN. The diagonal distribution suggests that the network balances the two objectives, with improvements in one objective often correlating with improvements in the other.
+* **Trade-Off Performance** : This scatter plot visualizes the trade-off between SE and EE achieved by PQN. The diagonal distribution suggests that the massive MIMO network balances the two objectives, with one objective often correlating with improvements in the other.
 
 <table>
   <tr>
