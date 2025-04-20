@@ -1,7 +1,7 @@
 # PQN-for-Joint-Optimization-in-Massive-MIMO-Networks
 * We achieve joint optimization of spectral efficiency (SE) and energy efficiency (EE) in Massive MIMO networks by approximating the Pareto Front in a 2D space with multiple objectives, using a replay buffer and DQN model.
   
-* Therefore, I believe that the suggested Pareto Q Network (PQN) can be valuable for understanding reinforcement learning-based approaches to multi-objective joint optimization and gaining insights into this area.
+* Therefore, I believe that the suggested Pareto Q-Network (PQN) can be valuable for understanding reinforcement learning-based approaches to multi-objective joint optimization and gaining insights into this area.
 
 # Introduction
 * Reinforcement learning (RL) is a powerful tool for optimization and decision-making, aiming to maximize rewards as an alternative to human decision-making. However, RL has limitations in real-world problems where multiple objectives or dynamic environments with shifting priorities exist. In these contexts, adaptive decision-making performance may degrade. To address this, we designed a **multi-objective RL algorithm** focused on jointly optimizing SE and EE, which are critical objectives in 5G networks.
